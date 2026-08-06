@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="t d">
+  <title id="t">VeloxSeg concept</title><desc id="d">Efficient multimodal 3D medical segmentation.</desc><defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#eaf3fa"/><stop offset="1" stop-color="#f7eff6"/></linearGradient></defs><rect width="640" height="360" rx="12" fill="url(#g)"/>
+  <g transform="translate(54 64)"><path d="m90 0 90 50v110l-90 50L0 160V50Z" fill="#dae7f2" stroke="#335f8d" stroke-width="3"/><path d="m90 0v110l90 50M90 110 0 160M0 50l90 60 90-60" fill="none" stroke="#5f87ad" stroke-width="2"/><path d="M52 72c25-31 70-26 91 0s2 68-34 77-85-46-57-77Z" fill="#e887a6" opacity=".83"/></g>
+  <path d="M271 171h80" stroke="#224b8d" stroke-width="5"/><path d="m339 156 19 15-19 15" fill="none" stroke="#224b8d" stroke-width="5"/>
+  <g transform="translate(388 68)"><rect width="197" height="224" rx="12" fill="#fff" stroke="#d1dbe5"/><path d="M32 54h133M32 92h98M32 130h68" stroke="#b8c7d5" stroke-width="13" stroke-linecap="round"/><path d="M32 54h111M32 92h74M32 130h45" stroke="#2d68a4" stroke-width="13" stroke-linecap="round"/><path d="m45 184 28 21 73-72" fill="none" stroke="#42a66f" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

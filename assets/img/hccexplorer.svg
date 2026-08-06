@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="t d">
+  <title id="t">HCCExplorer concept</title><desc id="d">Histology translated into multiplex immune channels and a spatial graph.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f9eef3"/><stop offset="1" stop-color="#eaf5fb"/></linearGradient><filter id="s"><feDropShadow dx="2" dy="3" stdDeviation="3" flood-opacity=".18"/></filter></defs>
+  <rect width="640" height="360" rx="12" fill="url(#bg)"/><g filter="url(#s)"><rect x="32" y="60" width="190" height="240" rx="10" fill="#fff" stroke="#d5bac8"/><rect x="418" y="60" width="190" height="240" rx="10" fill="#101a2d" stroke="#243a5b"/></g>
+  <g fill="#c5789f" opacity=".62"><circle cx="78" cy="108" r="22"/><circle cx="151" cy="93" r="28"/><circle cx="186" cy="148" r="18"/><circle cx="100" cy="180" r="34"/><circle cx="163" cy="235" r="38"/><circle cx="72" cy="265" r="22"/></g>
+  <path d="M243 180h139" stroke="#224b8d" stroke-width="5"/><path d="m370 165 19 15-19 15" fill="none" stroke="#224b8d" stroke-width="5"/>
+  <g stroke-width="3"><g fill="#63d2ff" stroke="#63d2ff"><circle cx="460" cy="105" r="10"/><circle cx="545" cy="98" r="9"/><circle cx="505" cy="165" r="11"/><circle cx="562" cy="226" r="10"/><circle cx="468" cy="255" r="9"/></g><g fill="#ff5c92" stroke="#ff5c92"><circle cx="510" cy="94" r="8"/><circle cx="570" cy="145" r="9"/><circle cx="454" cy="182" r="11"/><circle cx="521" cy="260" r="10"/></g><g stroke="#7389b4"><path d="m460 105 50-11 35 4 25 47-65 20-51 17 14 73 53 5 41-34"/><path d="m510 94-5 71 16 95"/></g></g>
+  <text x="127" y="328" text-anchor="middle" font-family="Arial" font-size="16" fill="#5e5260">Routine H&amp;E</text><text x="513" y="328" text-anchor="middle" font-family="Arial" font-size="16" fill="#394b69">Virtual mIF · Spatial immunity</text>
+</svg>
