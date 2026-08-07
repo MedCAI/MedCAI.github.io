@@ -268,12 +268,11 @@ h2 {
 .pub-figure img {
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 9;
+  height: auto;
   border: 1px solid var(--line);
   border-radius: 4px;
   background: #fff;
   box-shadow: var(--image-shadow);
-  object-fit: contain;
   transition: box-shadow 180ms ease, border-color 180ms ease, transform 180ms ease;
 }
 
