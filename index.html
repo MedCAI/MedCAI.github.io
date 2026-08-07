@@ -11,7 +11,7 @@
     <meta property="og:url" content="https://medcai.github.io/">
     <meta property="og:image" content="https://medcai.github.io/assets/img/profile.jpg">
     <title>Linghan Cai | Computational Pathology &amp; Medical AI</title>
-    <link rel="stylesheet" href="assets/css/styles.css?v=20260807-3">
+    <link rel="stylesheet" href="assets/css/styles.css?v=20260807-4">
     <script src="assets/js/main.js?v=20260807-1" defer></script>
   </head>
   <body>
@@ -26,6 +26,7 @@
           <a href="#news">News</a>
           <a href="#publications">Publications</a>
           <a href="#research">Research</a>
+          <a href="#experience">Experience</a>
           <a href="#education">Education</a>
           <a href="#visitors">Site Visitors</a>
         </div>
@@ -62,18 +63,26 @@
             </p>
             <p>
               My research interests include <strong>multimodal medical AI</strong>, <strong>AI agents</strong>, and
-              <strong>computational pathology</strong>. I develop learning systems that connect gigapixel pathology,
-              clinical information, medical imaging, and molecular measurements for cancer diagnosis and prognosis.
+              <strong>computational pathology</strong>. I study how learning systems can connect gigapixel pathology,
+              clinical information, medical imaging, and molecular measurements while keeping their predictions
+              interpretable and clinically reviewable.
+            </p>
+            <p>
+              My recent work spans virtual multiplex immunofluorescence and spatial immune analysis, smartphone-based
+              intraoperative assessment, weakly supervised whole-slide learning, and agentic reasoning over gigapixel
+              pathology images. Across these settings, I focus on models that expose useful evidence rather than only
+              returning a prediction.
             </p>
             <p class="notice-line">
-              📢 I am currently seeking full-time opportunities through the <strong>2027 graduate recruitment cycle</strong>.
-              Please feel free to contact me at <a href="mailto:cailh@stu.hit.edu.cn">cailh@stu.hit.edu.cn</a>.
+              📢📢 <span class="attention-highlight">Current focus: multimodal medical AI, AI agents, and computational pathology.</span>
+              I am seeking full-time opportunities through the <strong>2027 graduate recruitment cycle</strong>.
+              Contact: <a href="mailto:cailh@stu.hit.edu.cn">cailh@stu.hit.edu.cn</a>.
             </p>
           </div>
           <ul class="quick-facts" aria-label="Research summary">
-            <li><strong>Core focus</strong><span>Computational pathology and multimodal learning</span></li>
-            <li><strong>Clinical scope</strong><span>Cancer diagnosis, prognosis, and spatial immunity</span></li>
-            <li><strong>Methods</strong><span>WSI analysis, vision-language models, graph learning, agents</span></li>
+            <li><strong>Multimodal Medical AI</strong><span>Pathology · clinical data · imaging · genomics</span></li>
+            <li><strong>AI Agents</strong><span>Evidence retrieval · cross-scale reasoning · interpretable decisions</span></li>
+            <li><strong>Computational Pathology</strong><span>Weak supervision · spatial analysis · biomarker discovery</span></li>
           </ul>
         </section>
 
@@ -84,14 +93,21 @@
             <li><time datetime="2026-04">2026.04</time><span><a href="https://github.com/MedCAI/SuRImage" target="_blank" rel="noopener"><strong>SuRImage</strong></a> was accepted by <em>The Lancet Digital Health</em>.</span></li>
             <li><time datetime="2026-02">2026.02</time><span>Released <a href="https://github.com/MedCAI/HCCExplorer" target="_blank" rel="noopener"><strong>HCCExplorer</strong></a> for virtual multiplex immunofluorescence and spatial immune analysis.</span></li>
             <li><time datetime="2026-01">2026.01</time><span>Released <a href="https://arxiv.org/abs/2601.21617" target="_blank" rel="noopener"><strong>PathReasoner-R1</strong></a> for knowledge-guided pathology reasoning.</span></li>
-            <li><time datetime="2025-05">2025.05</time><span><strong>AttriMIL</strong> was published in <em>Medical Image Analysis</em>.</span></li>
+            <li><time datetime="2025-05">2025.05</time><span><a href="https://doi.org/10.1016/j.media.2025.103631" target="_blank" rel="noopener"><strong>AttriMIL</strong></a> was published in <em>Medical Image Analysis</em>.</span></li>
           </ul>
         </section>
 
         <section id="publications" class="section">
-          <div class="section-heading split-heading">
+          <div class="section-heading">
             <h2><span aria-hidden="true">📘</span> Selected Publications</h2>
-            <a class="all-link" href="https://scholar.google.com.hk/citations?user=KvZLMFoAAAAJ&amp;hl=en" target="_blank" rel="noopener">Full list on Google Scholar →</a>
+            <p class="citation-overview">
+              Full list:
+              <a href="https://scholar.google.com.hk/citations?user=KvZLMFoAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
+              <a class="metric-link" href="https://scholar.google.com.hk/citations?user=KvZLMFoAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+                <img src="https://img.shields.io/badge/citations-620-blue?logo=google-scholar&amp;logoColor=white&amp;style=flat-square" alt="Google Scholar citations: 620">
+              </a>
+              <span class="citation-stats">h-index 14 · i10-index 15</span>
+            </p>
           </div>
 
           <div class="publication-fields">
@@ -104,9 +120,14 @@
                     <img src="assets/img/hccexplorer-framework.png" alt="HCCExplorer framework for virtual multiplex immunofluorescence and spatial survival analysis" loading="lazy">
                   </a>
                   <div class="pub-body">
+                    <div class="pub-meta"><span class="meta-chip">First Author</span><span class="meta-chip">2026</span></div>
                     <h3><a href="https://www.biorxiv.org/content/10.64898/2026.02.25.707931v1" target="_blank" rel="noopener">Transforming Histology into Virtual Multiplex Immunofluorescence to Decode Prognostic Spatial Immunity in Hepatocellular Carcinoma</a></h3>
                     <p class="authors"><strong>Linghan Cai</strong>, Songhan Jiang, Junhao Liang, et al.</p>
-                    <p class="pub-note">Translates routine H&amp;E into virtual mIF and models prognostic spatial immune organization in hepatocellular carcinoma.</p>
+                    <ul class="pub-summary" aria-label="HCCExplorer summary">
+                      <li><strong>Question:</strong> Can routine H&amp;E slides recover multiplex immune phenotypes and prognostic spatial organization without physical multiplex staining?</li>
+                      <li><strong>Approach:</strong> HCCExplorer combines cell-consistent H&amp;E-to-virtual-mIF translation, multimodal feature co-optimization, and graph-based contextual survival learning.</li>
+                      <li><strong>Finding:</strong> Across 1,813 patients from four centers, the framework achieved a reported C-index of 0.71 and identified a macrophage-associated containment niche at the invasion frontier.</li>
+                    </ul>
                     <div class="pub-links"><a href="https://github.com/MedCAI/HCCExplorer" target="_blank" rel="noopener">Code</a><a href="https://www.biorxiv.org/content/10.64898/2026.02.25.707931v1" target="_blank" rel="noopener">Paper</a></div>
                   </div>
                 </article>
@@ -117,9 +138,14 @@
                     <img src="assets/img/surimage-framework.png" alt="SuRImage coarse-to-fine model framework for surgical resection image analysis" loading="lazy">
                   </a>
                   <div class="pub-body">
+                    <div class="pub-meta"><span class="meta-chip">Co-first Author</span><span class="meta-chip">2026</span><a class="meta-chip" href="https://scholar.google.com.hk/citations?user=KvZLMFoAAAAJ&amp;hl=en" target="_blank" rel="noopener">1 citation</a></div>
                     <h3><a href="https://www.thelancet.com/journals/landig/article/PIIS2589-7500(25)00147-5/fulltext" target="_blank" rel="noopener">Deep Learning Model for Pathological Invasiveness Prediction Using Smartphone-based Surgical Resection Images in Clinical Stage IA Lung Adenocarcinoma (SuRImage): a Prospective, Multicentric, Diagnostic Study</a></h3>
                     <p class="authors">Lintong Yao, <strong>Linghan Cai</strong>, Maotao Weng, et al.</p>
-                    <p class="pub-note">A prospective, multicentric study of AI-assisted intraoperative assessment for clinical stage IA lung adenocarcinoma.</p>
+                    <ul class="pub-summary" aria-label="SuRImage summary">
+                      <li><strong>Question:</strong> Can smartphone photographs of fresh surgical specimens support rapid intraoperative assessment of pathological invasiveness in stage IA lung adenocarcinoma?</li>
+                      <li><strong>Approach:</strong> SuRImage uses a coarse-to-fine visual model for invasiveness diagnosis, suspicious-region identification, and subtype classification in a prospective multicenter study.</li>
+                      <li><strong>Finding:</strong> The study demonstrates that macroscopic resection images contain learnable morphological cues that can complement time-sensitive intraoperative decision-making.</li>
+                    </ul>
                     <div class="pub-links"><a href="https://www.thelancet.com/journals/landig/article/PIIS2589-7500(25)00147-5/fulltext" target="_blank" rel="noopener">Paper</a><a href="https://github.com/MedCAI/SuRImage" target="_blank" rel="noopener">Code</a></div>
                   </div>
                 </article>
@@ -135,9 +161,14 @@
                     <img src="assets/img/pathagent-framework.png" alt="PathAgent iterative reasoning, navigation, and evidence retrieval workflow" loading="lazy">
                   </a>
                   <div class="pub-body">
+                    <div class="pub-meta"><span class="meta-chip">Co-first Author</span><span class="meta-chip">ECCV 2026</span><a class="meta-chip" href="https://scholar.google.com.hk/citations?user=KvZLMFoAAAAJ&amp;hl=en" target="_blank" rel="noopener">18 citations</a></div>
                     <h3><a href="https://github.com/G14nTDo4/PathAgent" target="_blank" rel="noopener">PathAgent: Toward Interpretable Analysis of Whole-slide Pathology Images via Large Language Model-based Agentic Reasoning</a></h3>
                     <p class="authors">Jingyun Chen, <strong>Linghan Cai</strong>, Zhikang Wang, et al.</p>
-                    <p class="pub-note">An agentic workflow that zooms, gathers visual evidence, and revises its reasoning over gigapixel slides.</p>
+                    <ul class="pub-summary" aria-label="PathAgent summary">
+                      <li><strong>Question:</strong> Can an AI agent actively inspect a gigapixel whole-slide image and make its diagnostic evidence traceable?</li>
+                      <li><strong>Approach:</strong> PathAgent coordinates an Executor, Navigator, and Perceptor to plan multi-step analysis, select magnification, retrieve evidence, and revise conclusions.</li>
+                      <li><strong>Finding:</strong> A training-free agentic workflow produced reviewable reasoning paths while retaining competitive performance with off-the-shelf pathology models.</li>
+                    </ul>
                     <div class="pub-links"><a href="https://github.com/G14nTDo4/PathAgent" target="_blank" rel="noopener">Code</a></div>
                   </div>
                 </article>
@@ -148,9 +179,14 @@
                     <img src="assets/img/attrimil-framework.png" alt="AttriMIL architecture with attribute scoring branches and constraints" loading="lazy">
                   </a>
                   <div class="pub-body">
+                    <div class="pub-meta"><span class="meta-chip">First Author</span><span class="meta-chip">MedIA 2025</span><a class="meta-chip" href="https://scholar.google.com.hk/citations?user=KvZLMFoAAAAJ&amp;hl=en" target="_blank" rel="noopener">46 citations</a></div>
                     <h3><a href="https://doi.org/10.1016/j.media.2025.103631" target="_blank" rel="noopener">AttriMIL: Revisiting Attention-based Multiple Instance Learning for Whole-slide Pathological Image Classification from a Perspective of Instance Attributes</a></h3>
                     <p class="authors"><strong>Linghan Cai</strong>, Shenjin Huang, Ye Zhang, Jinpeng Lu, Yongbing Zhang</p>
-                    <p class="pub-note">Reframes attention-based MIL through instance attributes to improve classification and tissue localization.</p>
+                    <ul class="pub-summary" aria-label="AttriMIL summary">
+                      <li><strong>Question:</strong> Do attention scores faithfully measure the pathological attributes of individual tissue instances in weakly supervised slide classification?</li>
+                      <li><strong>Approach:</strong> AttriMIL introduces multi-branch attribute scoring, region- and slide-level constraints, and pathology-adaptive feature learning.</li>
+                      <li><strong>Finding:</strong> The method achieved state-of-the-art results across four benchmarks and improved localization of disease-positive regions, including slides with sparse targets.</li>
+                    </ul>
                     <div class="pub-links"><a href="https://doi.org/10.1016/j.media.2025.103631" target="_blank" rel="noopener">Paper</a><a href="https://github.com/MedCAI/AttriMIL" target="_blank" rel="noopener">Code</a></div>
                   </div>
                 </article>
@@ -166,9 +202,14 @@
                     <img src="assets/img/veloxseg-framework.png" alt="VeloxSeg architecture with modal-fusion convolution and modal-cooperative transformer layers" loading="lazy">
                   </a>
                   <div class="pub-body">
+                    <div class="pub-meta"><span class="meta-chip">Co-first Author</span><span class="meta-chip">ICLR 2026</span><a class="meta-chip" href="https://scholar.google.com.hk/citations?user=KvZLMFoAAAAJ&amp;hl=en" target="_blank" rel="noopener">1 citation</a></div>
                     <h3><a href="https://arxiv.org/abs/2509.22307" target="_blank" rel="noopener">Johnson-Lindenstrauss Lemma Guided Network for Efficient 3D Medical Segmentation</a></h3>
                     <p class="authors">Jinpeng Lu, <strong>Linghan Cai</strong>, Yinda Chen, et al.</p>
-                    <p class="pub-note">A lightweight multimodal 3D segmentation framework designed around the efficiency–robustness trade-off.</p>
+                    <ul class="pub-summary" aria-label="VeloxSeg summary">
+                      <li><strong>Question:</strong> Can multimodal 3D segmentation remain accurate and robust without the computational cost of large volumetric networks?</li>
+                      <li><strong>Approach:</strong> VeloxSeg combines Johnson-Lindenstrauss-guided convolution, paired-window attention, modal mixing, and self-distilled dual decoders.</li>
+                      <li><strong>Finding:</strong> The reported model uses 1.66M parameters and 1.79G FLOPs while maintaining competitive segmentation across PET/CT and MRI benchmarks.</li>
+                    </ul>
                     <div class="pub-links"><a href="https://arxiv.org/abs/2509.22307" target="_blank" rel="noopener">Paper</a><a href="https://github.com/JinPLu/VeloxSeg" target="_blank" rel="noopener">Code</a></div>
                   </div>
                 </article>
@@ -179,9 +220,14 @@
                     <img src="assets/img/he2fish-framework.png" alt="HE2FISH multiscale expert framework for gene rearrangement prediction" loading="lazy">
                   </a>
                   <div class="pub-body">
+                    <div class="pub-meta"><span class="meta-chip">First Author</span><span class="meta-chip">2026</span></div>
                     <h3><a href="https://github.com/MedCAI/HE2FISH" target="_blank" rel="noopener">Data-efficient Deep Learning for Gene Rearrangement Status Prediction in Diffuse Large B-cell Lymphoma</a></h3>
                     <p class="authors"><strong>Linghan Cai</strong>, et al.</p>
-                    <p class="pub-note">Predicts molecular rearrangement status from routine histology while reducing data requirements.</p>
+                    <ul class="pub-summary" aria-label="HE2FISH summary">
+                      <li><strong>Question:</strong> Can routine H&amp;E slides provide a data-efficient screening signal for BCL2, BCL6, and MYC rearrangements in diffuse large B-cell lymphoma?</li>
+                      <li><strong>Approach:</strong> HE2FISH extracts 20× and 5× UNI2-h features and integrates them with multiscale experts, positional encoding, and task-specific prediction tokens.</li>
+                      <li><strong>Finding:</strong> The framework supports all three rearrangement tasks and produces interpretable attention maps that localize morphology associated with each prediction.</li>
+                    </ul>
                     <div class="pub-links"><a href="https://github.com/MedCAI/HE2FISH" target="_blank" rel="noopener">Code</a></div>
                   </div>
                 </article>
@@ -194,16 +240,80 @@
           <h2><span aria-hidden="true">🔬</span> Research</h2>
           <div class="focus-list">
             <article class="focus-item">
-              <h3>Computational Pathology</h3>
-              <p>Learning from gigapixel whole-slide images with weak supervision, instance-aware aggregation, nuclei analysis, and clinically meaningful visual evidence.</p>
+              <h3>🧬 Multimodal Medical AI</h3>
+              <p class="focus-subtitle">Connecting complementary clinical, imaging, pathological, and molecular evidence.</p>
+              <p>
+                I develop models that integrate clinical variables, radiology, histopathology, and gene expression for
+                cancer diagnosis and prognosis. The central challenge is not simply feature fusion, but determining which
+                modality contributes actionable evidence for a patient-level decision.
+              </p>
+              <p>
+                <strong>SuRImage</strong> studies smartphone-based intraoperative assessment, while
+                <strong>HCCExplorer</strong> connects routine H&amp;E, virtual multiplex immunofluorescence, graph learning,
+                and spatial immune biomarkers.
+              </p>
             </article>
             <article class="focus-item">
-              <h3>Multimodal Medical AI</h3>
-              <p>Fusing pathology, clinical variables, radiology, genomics, and spatial molecular measurements for diagnosis, prognosis, and biomarker discovery.</p>
+              <h3>🔬 Computational Pathology</h3>
+              <p class="focus-subtitle">Learning from gigapixel slides under weak supervision while preserving interpretable morphology.</p>
+              <p>
+                My work covers whole-slide preprocessing, multiple instance learning, nuclei analysis, spatial modeling,
+                and biomarker discovery. I am especially interested in the relationship between slide-level predictions
+                and the local tissue attributes that support them.
+              </p>
+              <p>
+                <strong>AttriMIL</strong> revisits attention-based MIL through instance attributes, and related projects
+                study weakly supervised nuclei segmentation, spatial transcriptomics, and pathology-genomics survival analysis.
+              </p>
             </article>
             <article class="focus-item">
-              <h3>Pathology Agents &amp; Reasoning</h3>
-              <p>Building vision-language systems that actively inspect slides, ground conclusions in morphological evidence, and expose a reviewable reasoning process.</p>
+              <h3>🤖 AI Agents for Pathology</h3>
+              <p class="focus-subtitle">Turning static prediction into active, cross-scale, evidence-grounded analysis.</p>
+              <p>
+                I build agentic systems that navigate whole-slide images, select magnification, retrieve morphological
+                evidence, and expose a reviewable reasoning process. This shifts pathology AI from one-shot classification
+                toward iterative analysis that can be inspected by human experts.
+              </p>
+              <p>
+                <strong>PathAgent</strong>, <strong>PathReasoner-R1</strong>, and <strong>PathScale-R1</strong> explore
+                interactive slide navigation, structured reasoning, and cross-scale pathology evaluation.
+              </p>
+            </article>
+            <article class="focus-item">
+              <h3>⚡ Earlier Foundation: Efficient Medical Vision</h3>
+              <p class="focus-subtitle">Efficient and data-efficient learning for segmentation and molecular prediction.</p>
+              <p>
+                My earlier work develops lightweight and robust image-analysis models for polyp segmentation, multimodal
+                3D medical segmentation, and pathology-based molecular screening. These projects provide the efficiency
+                foundations for deploying richer multimodal and agentic systems.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="experience" class="section">
+          <h2><span aria-hidden="true">🧭</span> Research Experience</h2>
+          <div class="timeline">
+            <article class="timeline-item">
+              <time class="timeline-date">2024.01 - Present</time>
+              <div>
+                <h3>Multimodal Medical Data Fusion and Analysis</h3>
+                <p><strong>Project Lead.</strong> Integrating clinical information, radiomics, pathology, and gene expression for precise cancer diagnosis, prognosis, and spatial biomarker discovery.</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <time class="timeline-date">2023.03 - Present</time>
+              <div>
+                <h3>AI-driven Computational Pathology</h3>
+                <p><strong>Project Lead.</strong> Building standardized digital-pathology pipelines and learning methods for weak supervision, nuclei analysis, whole-slide reasoning, and interpretable biomarker extraction.</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <time class="timeline-date">2022.01 - 2025.12</time>
+              <div>
+                <h3>Efficient and Robust Image Analysis</h3>
+                <p><strong>Core Contributor.</strong> Designing efficient deep-learning architectures for polyp segmentation, multimodal 3D segmentation, and data-efficient pathology analysis.</p>
+              </div>
             </article>
           </div>
         </section>
@@ -216,6 +326,7 @@
               <div>
                 <h3><a href="https://www.hitsz.edu.cn/" target="_blank" rel="noopener">Harbin Institute of Technology, Shenzhen</a></h3>
                 <p>Ph.D. in Computer Science and Technology. Advisor: Prof. Yongbing Zhang.</p>
+                <p>GPA: 3.45 / 4.00 (top 20%). Research focus: computational pathology and multi-omics analysis. Recipient of a First-Class Scholarship.</p>
               </div>
             </article>
             <article class="timeline-item">
@@ -230,6 +341,7 @@
               <div>
                 <h3><a href="https://www.buaa.edu.cn/" target="_blank" rel="noopener">Beihang University</a></h3>
                 <p>M.S. in Circuits and Systems.</p>
+                <p>GPA: 3.80 / 4.00 (top 10%, 19 / 193). Research focus: biomedical signal processing. First Prize in the Beijing Graduate Electronic Design Contest and National Third Prize.</p>
               </div>
             </article>
             <article class="timeline-item">
@@ -237,6 +349,7 @@
               <div>
                 <h3><a href="https://www.cau.edu.cn/" target="_blank" rel="noopener">China Agricultural University</a></h3>
                 <p>B.Eng. in Electronic Information Engineering.</p>
+                <p>GPA: 3.90 / 4.00 (top 5%, 1 / 30). National Scholarship recipient, Outstanding Student, and M Award in the Mathematical Contest in Modeling.</p>
               </div>
             </article>
           </div>
@@ -254,7 +367,7 @@
               <p class="visitor-note">Location is estimated from public IP geolocation and may be imprecise; this page does not display your raw IP address.</p>
             </div>
             <a class="visitor-map" href="https://flagcounter.com/" target="_blank" rel="noopener" aria-label="Open Flag Counter">
-              <img src="https://s11.flagcounter.com/map/MedCAI/size_l/txt_333333/border_F2F2F2/pageviews_1/viewers_1/flags_1/" alt="Visitor map and counter powered by Flag Counter" loading="lazy">
+              <img src="https://s11.flagcounter.com/map/MedCAI/size_l/txt_333333/border_F2F2F2/pageviews_1/viewers_1/flags_1/" alt="Visitor map and counter powered by Flag Counter">
             </a>
           </div>
         </section>
