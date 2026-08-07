@@ -203,6 +203,7 @@ h2 {
 
 .about-copy { max-width: 950px; }
 .about-copy p { margin: 0 0 0.65rem; }
+.venue-line { color: var(--muted); font-size: 0.94rem; }
 .notice-line { color: var(--attention); font-weight: 700; }
 .attention-highlight { color: var(--attention); font-weight: 700; }
 
