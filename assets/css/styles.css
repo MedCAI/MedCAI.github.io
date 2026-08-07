@@ -202,6 +202,7 @@ h2 {
 
 .about-copy { max-width: 950px; }
 .about-copy p { margin: 0 0 0.65rem; }
+.notice-line { color: var(--heading); }
 
 .quick-facts {
   list-style: none;
@@ -340,6 +341,26 @@ h2 {
 .timeline-item h3 { margin: 0 0 0.18rem; color: var(--heading); font-size: 1.04rem; }
 .timeline-item p { margin: 0; }
 
+.visitor-panel {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.72fr) minmax(300px, 1.28fr);
+  gap: 1.2rem;
+  align-items: start;
+}
+.visitor-location { min-width: 0; }
+.visitor-location h3 { margin: 0 0 0.3rem; color: var(--heading); font-size: 1.04rem; }
+.visitor-location p { margin: 0 0 0.55rem; }
+.visitor-note { color: var(--muted); font-size: 0.91rem; }
+.visitor-map { display: block; width: 100%; color: inherit; text-decoration: none; }
+.visitor-map img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: #fff;
+}
+
 .site-footer { padding: 1.5rem 0 1.9rem; color: var(--muted); text-align: center; font-size: 0.88rem; }
 .site-footer p { margin: 0; }
 
@@ -366,6 +387,7 @@ h2 {
   .publication { grid-template-columns: 1fr; gap: 0.8rem; align-items: start; }
   .pub-body { order: 1; }
   .pub-figure { order: 2; max-width: 420px; }
+  .visitor-panel { grid-template-columns: 1fr; gap: 0.85rem; }
 }
 
 @media (max-width: 620px) {
